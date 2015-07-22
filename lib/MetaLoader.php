@@ -55,7 +55,7 @@ class MetaLoader {
 		DiscoUtils::debug('Metadata ready, starting to parse XML and validate document');
 
 		$this->list = array();
-		$entities = SAMLParser::parseDescriptorsFile($cachefile);
+		$entities = SimpleSAML_Metadata_SAMLParser::parseDescriptorsFile($cachefile);
 		
 		foreach($entities as $entityId => $entity) {
 			$md = $entity->getMetadata1xIdP();
