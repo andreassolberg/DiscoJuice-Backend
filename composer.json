@@ -13,7 +13,8 @@
     ],
     "require": {
         "php": ">=5.4",
-        "simplesamlphp/saml2": "~0.3",
+        "simplesamlphp/simplesamlphp": "dev-master",
+        "simplesamlphp/saml2": "~1.5.3",
         "nategood/commando": "*",
         "geoip2/geoip2": "0.6.*",
         "fabpot/goutte": "~2.0"
