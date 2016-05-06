@@ -27,7 +27,8 @@ if ($command[0] === 'termcolor') {
 
 
 $feeds = json_decode(file_get_contents(dirname($BASE) . '/etc/feeds.js'), TRUE);
-$dj = new DiscoStore();
+// $dj = new DiscoStore();
+$dj = DiscoStore::getStore();
 
 foreach($feeds AS $key => $feed) {
 	$feed['id'] = $key;

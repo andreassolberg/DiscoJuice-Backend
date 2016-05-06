@@ -159,7 +159,7 @@ try {
 
 
 
-	echo $responseJSON;
+	// echo $responseJSON;
 
 	// $profiling = microtime(true);
 	// $key = Utils::getPathString();
