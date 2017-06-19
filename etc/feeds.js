@@ -312,7 +312,7 @@
 		"zoom": 7
 	},
 	"dfn": {
-		"url": "https://www.aai.dfn.de/fileadmin/metadata/DFN-AAI-metadata.xml",
+		"url": "https://www.aai.dfn.de/fileadmin/metadata/dfn-aai-basic-metadata.xml",
 		"country": "DE",
 		"CountrySearch": "Germany",
 		"zoom": 7
