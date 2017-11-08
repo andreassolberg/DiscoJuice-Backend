@@ -379,6 +379,15 @@
 		"info": "https://gridp.garr.it/",
 		"url": "https://gridp.garr.it/metadata/gridp.xml",
 		"country": "IT"
+	},
+	"safire": {
+		"url": "https://metadata.safire.ac.za/safire-idp-proxy-metadata.xml",
+		"title": "SAFIRE",
+		"descr": "South African Identity Federation",
+		"info": "https://safire.ac.za/",
+		"country": "ZA",
+		"CountrySearch": "South Africa",
+		"zoom": 6
 	}
 }
 
